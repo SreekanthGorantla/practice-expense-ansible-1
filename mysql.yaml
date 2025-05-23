@@ -32,7 +32,7 @@
     ignore_errors: true
 
   - name: Print registered output
-    ansible.built.debug:
+    ansible.builtin.debug:
       msg: "MySQL_info output: {{ mysql_info }}"
 
   - name: Setup Root password
