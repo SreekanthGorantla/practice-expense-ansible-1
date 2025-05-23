@@ -33,7 +33,7 @@
   - name: Unzip Backend code
     ansible.builtin.unarchive:
       src: /tmp/backend.zip
-      desc: /app
+      dest: /app
       remote_src: yes
 
   - name: Install npm dependencies
